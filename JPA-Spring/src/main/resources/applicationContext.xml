@@ -42,6 +42,7 @@
 				<prop key="hibernate.cache.use_query_cache">true</prop>
 			</props>
 		</property>
+		<property name="sharedCacheMode" value="ENABLE_SELECTIVE"></property>
 	</bean>
 
 	<!-- 配置声明式事务 -->
